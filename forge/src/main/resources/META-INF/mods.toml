@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "CC0-1.0"
+
+[[mods]]
+modId = "enraged_mobs"
+version = "${version}"
+displayName = "Enraged Mobs"
+authors = "n0t_UN_Owen/NotUnaNancyOwen"
+description = '''
+Allows you to ragebait mobs
+'''
+logoFile = "assets/enraged_mobs/icon.png"
+
+[[dependencies.enraged_mobs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.enraged_mobs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

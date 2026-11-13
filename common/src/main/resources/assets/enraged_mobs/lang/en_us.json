@@ -1,0 +1,6 @@
+{
+  "gamerule.mobEnrageOnHealthPercent": "Berserk percentage",
+  "gamerule.mobEnrageOnHealthPercent.description": "Mobs will enrage when their health (in percentage) falls below this threshold",
+  "gamerule.permanentEnrage": "Enraged mobs stay enraged",
+  "gamerule.permanentEnrage.description": "Mobs that can enrage will not un-enrage until they are out of combat"
+}

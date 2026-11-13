@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.notunanancyowen.enraged.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "AbstractSkeletonMixin",
+    "BlazeAttackGoalMixin",
+    "BlazeMixin",
+    "CreeperMixin",
+    "ElderGuardianMixin",
+    "GuardianAttackGoalMixin",
+    "GuardianMixin",
+    "LivingEntityMixin",
+    "MobMixin",
+    "PillagerMixin",
+    "ShulkerMixin",
+    "SwellGoalMixin",
+    "WitherSkeletonMixin"
+  ],
+  "client": [
+    "BlockDisplayRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
